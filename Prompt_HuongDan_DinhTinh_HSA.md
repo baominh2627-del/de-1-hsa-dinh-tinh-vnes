@@ -17,7 +17,7 @@ Khi nhận được yêu cầu tạo hoặc số hóa một đề thi Tư duy đ
   - Phải giữ đúng HÌNH THỨC của văn bản gốc: Chỗ nào in đậm dùng thẻ `<b>`, in nghiêng dùng thẻ `<i>`, gạch chân dùng thẻ `<u>`.
   - Đối với các đoạn thơ: Cần ngắt dòng chính xác bằng thẻ `<br>` cho từng câu thơ, giữ đúng form các khổ thơ. Căn lề phải tên tác giả bằng `<div style='text-align:right'>...</div>`.
   - Đối với các ngữ liệu văn bản dài (Đọc hiểu): Cần tách đoạn văn đúng như bản gốc bằng thẻ `<br><br>`, làm nổi bật số thứ tự đoạn (ví dụ: <b>(1)</b>). Đưa các phần trích dẫn nguồn xuống cuối ngữ liệu và in nghiêng.
-- **Tích hợp ngữ liệu:** Đối với chùm câu hỏi chung một ngữ liệu (ví dụ: Từ câu 66 - 70), đoạn ngữ liệu phải được chèn vào trước nội dung của TỪNG câu hỏi trong chùm đó để học sinh có thể đọc mà không phải cuộn lên. Thêm tiêu đề <b>Đọc ngữ liệu sau và trả lời các câu hỏi từ ...:</b> ở đầu.
+- **Tích hợp ngữ liệu:** Đối với chùm câu hỏi chung một ngữ liệu (ví dụ: Từ câu 66 - 70), đoạn ngữ liệu CHỈ CẦN được chèn vào trước nội dung của CÂU HỎI ĐẦU TIÊN trong chùm đó (ví dụ: chèn vào câu 66). Các câu hỏi phía sau (67-70) chỉ cần ghi trực tiếp nội dung câu hỏi. Thêm tiêu đề <b>Đọc ngữ liệu sau và trả lời các câu hỏi từ ...:</b> ở đầu phần ngữ liệu.
 - **Đáp án (`correctAnswer`):** Mảng `options` luôn chứa 4 đáp án (A, B, C, D). `correctAnswer` là chỉ số `0`, `1`, `2`, hoặc `3` tương ứng lấy từ bảng đáp án chuẩn cung cấp.
 
 ## 3. Quy trình làm việc
