@@ -12,7 +12,7 @@ const submitBtn = document.getElementById("submit-btn");
 // ===== CHỈ THAY DÒNG NÀY =====
 const MA_DE       = "HSA_DINHLUONG_DE1";
 const DRAFT_KEY   = "examDraft_HSA_DINHLUONG_DE1";
-const EXAM_MINUTES = 75;
+const EXAM_MINUTES = 60;
 const RETURN_HASH = "#math";
 // ================================
 
