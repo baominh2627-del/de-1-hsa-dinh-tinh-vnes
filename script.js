@@ -81,8 +81,8 @@ function renderExam() {
   const header = document.createElement("div");
   header.className = "section-header";
   header.innerHTML = `
-    <div class="section-title">Phần thi: Toán học và Xử lí số liệu <span class="badge">50 điểm</span></div>
-    <div class="section-subtitle">Mỗi câu đúng được 1 điểm. Gồm trắc nghiệm 4 lựa chọn và điền đáp án.</div>`;
+    <div class="section-title">Phần thi: Ngôn ngữ - Văn học <span class="badge">50 điểm</span></div>
+    <div class="section-subtitle">Mỗi câu đúng được 1 điểm. 100% trắc nghiệm 4 lựa chọn.</div>`;
   questionsContainer.appendChild(header);
 
   let qCounter = 1;
